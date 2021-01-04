@@ -38,3 +38,47 @@ section{height: 550px;}
     color: white;
     margin-top: 5;
 }
+
+.middle_left_side{
+    float: left;
+    width: 40%;
+    margin: 20px;
+}
+.middle_right_side{
+    margin: 20px;
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.middle_left_side img {
+    width: 85%;
+    height: 370px;
+}
+.hafl_widht{
+    width: 40%;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+}
+.exprience_time{
+    color:orange;
+}
+.single_post{
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 250px;
+}
+.expreance_area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(45deg,#fa6d59, #d26e6ed9);
+   border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
